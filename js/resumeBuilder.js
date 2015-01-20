@@ -42,6 +42,13 @@ bio.display = function() {
     $("#topContacts").append(formattedGithub);
     $("#topContacts").append(formattedLocation);
 
+    $("#footerContacts").append(formattedMobile);
+    $("#footerContacts").append(formattedEmail);
+    $("#footerContacts").append(formattedTwitter);
+    $("#footerContacts").append(formattedGithub);
+    $("#footerContacts").append(formattedLocation);
+
+
     $("#header").append(formattedBioPic);
 
     for(i in bio.skills) {
